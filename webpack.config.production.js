@@ -2,7 +2,7 @@ module.exports = {
   mode: production,
   entry: "./src/index.tsx",
   output: {
-    filename: "./dist/bundle.js",
+    filename: "./bundle.js",
   },
   devtool: "source-map",
   resolve: {
